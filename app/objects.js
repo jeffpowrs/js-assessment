@@ -34,7 +34,7 @@ exports.objectsAnswers =  {
   iterate : function(obj) {
 
     var propArray = [];
-    var isOwnProp;
+    var isOwnProp = false;
 
     for (var prop in obj) {
       isOwnProp = obj.hasOwnProperty(prop);
